@@ -32,6 +32,8 @@ public class GITServlet extends HttpServlet {
 		
 		sb.append("<h2>Modificare</h2>");
 		
+		sb.append("<h3>Hello brach bug#1234</h3>");
+		
 		response.getWriter().write(sb.toString());
 	}
 
