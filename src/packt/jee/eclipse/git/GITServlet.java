@@ -30,6 +30,8 @@ public class GITServlet extends HttpServlet {
 		
 		StringBuilder sb = new StringBuilder("Hello world!");
 		
+		sb.append("<h2>Modificare</h2>");
+		
 		response.getWriter().write(sb.toString());
 	}
 
